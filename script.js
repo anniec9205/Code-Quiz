@@ -1,10 +1,32 @@
 // Var with array and object for questions 
 var questions = [
     {
-      
+        title: "In JavaScript, what is a block of statement?",
+        choices: ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+        answer: "block that combines a number of statements into a single compound statement"
     },
-
+    {
+        title: "The function and var are known as:",
+        choices: ["Keywords", "Data types", "Declaration statements", "Prototypes"],
+        answer: "Declaration statements"
+    },
+    {
+        title: "Which of the following is NOT JavaScript Data Types?",
+        choices: ["Undefined", "Number", "Booleans", "Float"],
+        answer: "Float"
+    },
+    {
+        title: "Which of the following is correct about features of JavaScript?",
+        choices: ["It can not Handling dates and time", "JavaScript is a object-based scripting language", "JavaScript is not interpreter based scripting language", "All of the above"],
+        answer: "JavaScript is a object-based scripting language"
+    },
+    {
+        title: "JavaScript is designed for following purpose",
+        choices: ["To style HTML pages", "To execute Queries related to databases on a server", "To add interactivity to html pages", "All of the above"],
+        answer: "All of the above"
+    },
 ];
+
 // Declared variables
 var score = 0;
 var questionIndex = 0;
@@ -172,7 +194,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.location.replace("./HighScores.html");
+            window.location.replace("./scores.html");
         }
     });
 

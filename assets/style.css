@@ -9,14 +9,17 @@
     border: 8px double rgb(177, 147, 91);
     background-color: rgb(192, 163, 136);
 }
+
 #startQuiz {
     background-color: grey;
     padding: 15px 32px;
     font-size: 20px;
     color: white;
 }
+
 #questionsDiv {
     margin: 30px;
+    font-weight: bold;
 }
 
 #currentTime {
@@ -48,7 +51,7 @@
 }
 
 button {
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 textarea {
@@ -67,6 +70,7 @@ textarea {
 label {
     margin-right: 10px;
 }
+
 input {
     margin-bottom: 20px;
     width: 50%;
@@ -78,11 +82,10 @@ h1 {
 }
 
 li {
-    background-color: gray;
-    margin-top: 10px;
-    padding: 5px 15px;
+    margin-top: 20px;
+    padding: 10px 25px;
     width: 80%;
-    font-size: 18px;
+    font-size: px;
     color: white;
 }
 
@@ -123,10 +126,12 @@ margin-left: 20%;
 
 /* A Media Query max-width: 640px */
 @media screen and (max-width: 640px) {
-/* Resized content to fit 640px  */
+
+    /* Resized content to fit 640px  */
 body {
     min-width: 640px;
 }
+
 /* Resized main-content to fit 640px  */
 #wrapper {
 position: absolute;
@@ -135,6 +140,4 @@ left: 10%;
 a {
   margin-left: 10%;
 }
-
-
 }
