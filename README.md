@@ -6,4 +6,4 @@
 
 ![](https://github.com/anniec9205/Code-Quiz/blob/master/Webpage%20Screenshot.png)
 
-[Welcome to Coding Quiz](https://anniec9205.github.io/Code-Quiz/)
+[Welcome to Coding Quiz](https://anniec9205.github.io/Coding-Quiz)
