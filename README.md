@@ -1,4 +1,4 @@
-# Code-Quiz Page
+# Coding-Quiz Page
 
 **About Code Quiz**
  
