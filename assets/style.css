@@ -16,7 +16,7 @@
     color: white;
 }
 #questionsDiv {
-    margin: 20px;
+    margin: 30px;
 }
 
 #currentTime {
@@ -24,28 +24,26 @@
 }
 
 #goBack {
-    background-color: purple;
+    background-color: grey;
     position: relative;
     padding: 10px;
     font-size: 20px;
     color: white;
-    top: 30%;
-    left: 55%;
+    top: 60%;
+    left: 25%;
     width: auto;
     text-align: center;
     text-decoration: none;
 }
 
-
-
 #clear {
-    background-color: purple;
+    background-color: grey;
     position: relative;
     padding: 10px;
     font-size: 20px;
     color: white;
     top: 30%;
-    right: 5%;
+    right: 20%;
     text-align: center;
 }
 
@@ -59,7 +57,7 @@ textarea {
 }
 
 #Submit {
-    background-color: purple;
+    background-color: rgb(177, 147, 91);
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
@@ -80,7 +78,7 @@ h1 {
 }
 
 li {
-    background-color: purple;
+    background-color: gray;
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
